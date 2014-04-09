@@ -1,0 +1,8 @@
+<h1>Here is the picture</h1>
+
+    <p><%= link_to "Edit", edit_picture_url(@picture) %></p>
+    <p><%= link_to "Delete", @picture, :method => "delete" %></p>
+    <p><%= @picture.title %> by <%= @picture.artist %></p>
+    <p><%= @picture.year %></p>
+    <img src="<%= @picture.url %>" />
+
