@@ -51,8 +51,6 @@ class PicturesController < ApplicationController
             render :edit
         end
 
-
-
     end 
 
     def destroy
